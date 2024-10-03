@@ -1,0 +1,215 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(Roboto/Roboto-Black.ttf);
+}
+
+* {
+  font-family: sans-serif;
+}
+
+/*-------------------TOP------------------------*/
+
+#topp {
+  background-color: #1F2936;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#linker a{
+  text-decoration: none; 
+  color: white;
+  margin: 10px;
+}
+#linker a:hover {
+  color: rgb(170, 170, 170);
+}
+
+#strek {
+  height: 1px;
+  background-color: #6E737C;
+}
+
+#signUp {
+  background-color: #1F2936;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  justify-content: center;
+
+  gap: 10px;
+
+}
+
+#signUp p {
+  width: 300px;
+}
+
+#signUp img{
+  height: 200px;
+  width: 300px;
+}
+
+#signUp button {
+  width: 70px;
+  height: 30px;
+  border-radius: 7px;
+  color: white;
+  background-color: cornflowerblue;
+  border-color: cornflowerblue;
+}
+#signUp button:hover {
+  background-color:rgb(85, 123, 193);
+  border-color: rgb(85, 123, 193);
+}
+
+
+/*-------------------BODY------------------------*/
+
+body {
+  background-color: whitesmoke;
+}
+
+
+#mainContent {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.contentWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 30%;
+}
+
+
+.infoBoksR, .infoBoksL {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+}
+
+
+
+.infoBoksR p, .infoBoksL p{
+  height: 200px;
+  width: 300px;
+  margin: 5px;
+  text-align: left;
+}
+
+.hvitBoks {
+  width: 300px;
+  height: 200px;
+  border: 2px solid cornflowerblue;
+  border-radius: 15px;
+  margin: 0 10px;
+
+}
+
+
+/*-------------------Quote------------------------*/
+
+#quoteBoks {
+  margin-top: 25px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+  margin: 10px 10%;
+}
+
+#quote {
+  width: 500px;
+  background-color: lightgray;
+  padding: 20px;
+  align-items: center;
+}
+
+#quoteTxt {
+  text-shadow: #6E737C 1px 0px 5px;
+  font-style: italic;
+}
+
+#navn {
+  text-align: right;
+  font-weight: bold;
+}
+
+
+
+/*-------------------BUNN------------------------*/
+
+#signUpBottom {
+  margin-top: 25px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  background-color: cornflowerblue;
+  margin: 10px 25%;
+  border-radius: 15px;
+}
+
+#signUpBottom section {
+  float: left;
+  padding: 10px 50px;
+  color: white;
+}
+
+#signUpBottom aside {
+  float: right;
+  padding-left: 100px;
+}
+
+#signUpBottom button {
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+    color: white;
+    background-color: cornflowerblue;
+    border-color: white;
+}
+
+
+/*-------------------Footer------------------------*/
+
+footer {
+  padding: 5px 10px;
+  background-color: #1F2936;
+  color: white;
+  text-align: center;
+}
+
+
+/*---------------------Side2-------------------------------------------------------------------------*/
+
+
+.mainContainer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 70%;
+  left: 15%;
+  
+}
+
+.mainContainer div {
+  color: darkblue;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 2px 2px 10px rgb(188, 188, 188);
+  border-radius: 20px;
+}
